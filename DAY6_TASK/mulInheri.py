@@ -7,10 +7,10 @@ class item_num(amazon):
         self.ordernum = ordernum
         print(self.ordernum)
 class consumer(item_num):
-    def delivery(self,address):
-        self.address = address
-        print(self.address)
+    def delivery(self,address,mobno):
+        #self.address = address
+        print(address,mobno)
 objconsumer = consumer()
 objconsumer.product_name("Redmi 9 pro -mobile")
 objconsumer.product_num(199902)
-objconsumer.delivery("xxxx")
+objconsumer.delivery("xxxx",98966857)
