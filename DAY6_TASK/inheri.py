@@ -2,13 +2,13 @@ class mobiles:
     def my_color(self,color):
         self.color = color
         print(self.color)
-class nokia(mobiles):
-    def applications(self,app):
-        self.app = app
-        print(self.app)
+class brand(mobiles):
+    def bname(self,name):
+        self.name = name
+        print(self.name)
 
 objmobiles = mobiles()
-objnokia = nokia()
+objbname = brand()
 objmobiles.my_color("red")
-objnokia.applications("video editor")
-objnokia.my_color("black")
+objbname.bname("nokia")
+objbname.my_color("black")
