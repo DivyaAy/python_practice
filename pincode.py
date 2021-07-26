@@ -1,0 +1,7 @@
+pin_code = (613005,614626,613004,613003,613002)
+print(pin_code)
+print(pin_code[1:4])
+s = sorted(pin_code)
+print(s)
+new_tuple_reverse = tuple(sorted(pin_code, reverse=True))
+print(new_tuple_reverse)

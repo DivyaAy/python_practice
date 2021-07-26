@@ -1,0 +1,11 @@
+name = "hi , Divya"
+#x= slice(2)
+print(name)
+#print(x)
+#print(name[1:4])
+print(name.strip())
+#print(name.replace("hi","HI"))
+#print(name.upper())
+#print(name.find("i"))
+#print(name.count("i"))
+#print(name.split("v"))
