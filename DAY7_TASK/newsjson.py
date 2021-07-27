@@ -4,6 +4,17 @@ data = requests.get ("https://newsapi.org/v2/top-headlines?country=in&apiKey=5b0
 Extractdata = data.json()
 l = Extractdata["status"]
 articles = Extractdata["articles"]
-for i in articles:
-    print(i["title"])
-print(l)
+print(len(articles))
+vowels = "aeiou"
+count = 0
+for ar in articles:
+        title = ar['title']
+        print(title)
+
+        for i in title.lower():
+            if i in vowels:
+                count+=1
+        print(count)
+
+
+            
