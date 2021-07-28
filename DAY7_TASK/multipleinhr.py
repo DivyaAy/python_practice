@@ -12,11 +12,11 @@ class calculator(addition,subtraction,multiple):
     pass
 
 objcal = calculator
-#n = int(input("enter a number: "))
-#m = int(input("enter a number: "))
-#print("the addition of two num:",objcal.add(n,m))
-#print("the sub of two num:",objcal.sub(n,m))
-#print("the multiply of two num:",objcal.mul(n,m))
+n = int(input("enter a number: "))
+m = int(input("enter a number: "))
+print("the addition of two num:",objcal.add(n,m))
+print("the sub of two num:",objcal.sub(n,m))
+print("the multiply of two num:",objcal.mul(n,m))
 
 print(issubclass(calculator,multiple))
 print(issubclass(subtraction,multiple))
